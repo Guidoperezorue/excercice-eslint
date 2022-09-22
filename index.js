@@ -1,0 +1,10 @@
+let nombre = "Guido"
+let apellido = "Pérez Orué"
+let estudiante = nombre + " " + apellido
+let estudianteMayus = estudiante.toUpperCase()
+let estudianteMinus = estudiante.toLowerCase()
+let estudiante_length = estudiante.length
+let firstLetterOfName = nombre[0]
+let lastLetterOfLastName = apellido[(apellido.length - 1)]
+let estudianteNoSpaces = estudiante.replace(/ /g, "")
+let bool = estudiante.includes(nombre)
